@@ -10,3 +10,7 @@ while [ $i -gt 0 ] ; do
   i=$(($i-1))
 done
 
+for i in apple banana orange ; do
+  echo fruit - $i
+done
+
